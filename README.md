@@ -61,6 +61,10 @@ TonSmc.new.send_wallet_v4
 
 4. Interact with the bot in your Telegram app.
 
+## Credits 
+1. [ton-sdk-ruby](https://github.com/nerzh/ton-sdk-ruby)
+1. [ton-sdk-ruby-smc](https://github.com/nerzh/ton-sdk-ruby-smc)
+
 ## ፈቃድ
 ይህ ስራ በ[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) ስር ፍቃድ ተሰጥቶታል።
 
