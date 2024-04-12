@@ -5,12 +5,12 @@ This project demonstrates the usage of TON (Telegram Open Network) in Ruby by pe
 ## Installation
 
 To get started with this project, you need to install the required gems:
-`gem install ton-sdk-ruby`
-`gem install ton-sdk-ruby-smc`
+`gem install ton-sdk-ruby` and `gem install ton-sdk-ruby-smc`
 
 ## Usage 
 ### Sending Transactions with Wallet V3
-`require 'ton-sdk-ruby'
+``` ruby 
+require 'ton-sdk-ruby'
 require 'ton-sdk-ruby-smc'
 
 class TonSmc
@@ -23,10 +23,11 @@ class TonSmc
 end
 
 TonSmc.new.send_wallet_v3
-`
+```
 
 ### Sending Transactions with Wallet V4
-`require 'ton-sdk-ruby'
+``` ruby
+require 'ton-sdk-ruby'
 require 'ton-sdk-ruby-smc'
 
 class TonSmc
@@ -39,7 +40,7 @@ class TonSmc
 end
 
 TonSmc.new.send_wallet_v4
-`
+```
 ## ለመጀመር
 
 1. ማከማቻውን `git clone https://github.com/samzhab/smart_contracts_playground_1.git`
